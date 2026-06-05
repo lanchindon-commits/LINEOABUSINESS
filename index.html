@@ -518,36 +518,91 @@
   </div>
 </section>
 
-<!-- PRICING -->
-<section id="pricing" class="pricing-section">
+<!-- TESTIMONIALS -->
+<section id="testimonials" style="background:var(--light-gray);">
   <div class="section-inner">
     <div class="fade-in">
-      <div class="section-number">04 — 費用方案</div>
-      <h2 class="section-title">簡單透明，<strong>一個價格</strong></h2>
-      <p class="section-desc" style="color:var(--gray);">沒有隱藏費用，一次付清，所有內容全包。</p>
+      <div class="section-number">04 — 學員心得</div>
+      <h2 class="section-title">車行老闆<strong>真實回饋</strong></h2>
+      <p class="section-desc">來自各地機車行學員，上完課的第一手感想。</p>
     </div>
-    <div class="pricing-card fade-in">
-      <div class="pricing-badge">完整方案</div>
-      <div>
-        <span class="pricing-currency">$</span>
-        <span class="pricing-amount">5,000</span>
-        <span class="pricing-unit">/ 一套</span>
+    <div class="testimonials-grid fade-in">
+      <div class="testi-card">
+        <p class="testi-text">「上課體驗很大的收穫，老師能把原本複雜的系統架構拆解淺顯的方式說明運用，對整體流程有更清楚的認識，大大降低了學習上的困難感。」</p>
+        <div class="testi-author">北斗星機車行</div>
       </div>
-      <p class="pricing-desc">現場直接教你到會應用為止，並設計好完整一套。2 小時內完成，超過時間不收額外費用。</p>
-      <ul class="pricing-features">
-        <li><span class="check">✓</span> 設計簡介 — 帳號封面與品牌頁面</li>
-        <li><span class="check">✓</span> 圖文訊息 — 推播訊息設計</li>
-        <li><span class="check">✓</span> 進階影片 — 影片內容整合</li>
-        <li><span class="check">✓</span> 多頁訊息 — 卡片式敘事設計</li>
-        <li><span class="check">✓</span> 圖文選單 — 底部導覽選單</li>
-        <li><span class="check">✓</span> 自動回覆設定 — 關鍵字觸發，休息時間自動回應</li>
-        <li><span class="check">✓</span> 預設訊息 — 歡迎訊息與常用回覆設計</li>
-        <li><span class="check">✓</span> 一對一現場教學，學完即上線</li>
-        <li><span class="check">✓</span> 課後 LINE 諮詢支援</li>
-      </ul>
+      <div class="testi-card">
+        <p class="testi-text">「有學習到如何經營管理官方網站、善用官方賴來回覆顧客訊息。」</p>
+        <div class="testi-author">中信機車行</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「藍老師非常優質，感謝提供上課機會。」</p>
+        <div class="testi-author">和昌輪業</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「感謝開啟這課程，讓店家營運者更好使用，這比方便的運作模式來服務客人。」</p>
+        <div class="testi-author">台機店車業</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「真的很棒，能了解官方 LINE 更多的實用工具，希望有更多其他實用的課程，有助於整體產業的文化思維提升。」</p>
+        <div class="testi-author">鴻權車業</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「有實際助益，且讓短時間內對於軟體應用更有信心。」</p>
+        <div class="testi-author">熊拜門陣有限公司</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「學到很多官方 LINE 的使用，也覺得很受用。」</p>
+        <div class="testi-author">旭泰車業</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「更了解官方賴的使用，更能有效經營。」</p>
+        <div class="testi-author">台品機車行</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「學習到很多，回店後會學以致用。」</p>
+        <div class="testi-author">翔豪車業行</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「很喜歡今天的課程，受益良多。」</p>
+        <div class="testi-author">永樺車業</div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-text">「很棒，受益良多。」</p>
+        <div class="testi-author">立揭車業</div>
+      </div>
     </div>
   </div>
 </section>
+
+<style>
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .testi-card {
+    background: var(--white);
+    border-radius: 2px;
+    padding: 32px 28px;
+    border-left: 3px solid var(--accent);
+    transition: box-shadow 0.25s;
+  }
+  .testi-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .testi-text {
+    font-size: 15px;
+    color: var(--black);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  .testi-author {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+  }
+</style>
 
 <!-- CONTACT -->
 <section id="contact">
